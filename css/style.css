@@ -1,0 +1,45 @@
+@font-face{
+	font-family: Century;
+	src: url('Century.ttf');
+}
+@font-face{
+	font-family: andalus;
+	src: url('andalus.ttf');
+}
+.navbar{
+	font-size: 2rem;
+	margin-bottom: 25px;
+	margin-bottom: 0;
+	padding-bottom: -15px;
+}
+img{
+	max-width: 100%;
+}
+.navbar-brand{
+	height: 10px;
+	padding-top: 5%;
+	margin-bottom: 0 auto;
+	font-size: 60px;
+}
+.navbar-nav{
+	font-family: andalus;
+	font-size: 1.2em;
+	margin-top: 7%;
+	float: right;
+}
+.header{
+	margin-bottom: 0%;
+}
+.header p{
+	font-family: Century;
+	font-size: 1.2em;
+}
+@media(max-width:997px){
+	.header p{
+	font-family: Century;
+	font-size: 40px;
+	}
+}
+a{
+	color: #808080;
+}
