@@ -1,3 +1,8 @@
+body{
+	background: #424242;
+	color: #E0E0E0;
+}
+#nombre p{	color: #26C6DA;}
 @font-face{
 	font-family: Century;
 	src: url('Century.ttf');
@@ -41,5 +46,9 @@ img{
 	}
 }
 a{
-	color: #808080;
+	color: #E0E0E0;
+}
+.navbar-nav li > a:hover{
+	color: #26C6DA;
+	background: transparent;
 }
