@@ -2,6 +2,10 @@ body{
 	background: #424242;
 	color: #E0E0E0;
 }
+.panel-footer{
+	background: #424242;
+	color: #E0E0E0;
+}
 #nombre p{	color: #26C6DA;}
 @font-face{
 	font-family: Century;
@@ -12,7 +16,7 @@ body{
 	src: url('andalus.ttf');
 }
 .imagenes{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 .navbar{
@@ -22,6 +26,7 @@ body{
 }
 .slides{
 	border-radius: 5px;
+	margin: 0 auto;
 }
 img{
 	max-width: 90%;
@@ -70,4 +75,23 @@ a{
 }
 section{
 	margin-top: 10%;
+}
+.msjFlash{
+	width: 100%;
+	height: 2px;
+	margin-top: 77px;
+	margin-bottom: -27px;
+	color: red;
+	animation-duration: 7s;
+  	animation-name: slidein;
+}
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width: 100%
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
 }

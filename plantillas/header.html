@@ -1,0 +1,42 @@
+<!--Barra navegacion-->
+<div class="header">
+		<nav class="navbar navbar" ng-controller="navegacionControl">
+		<div class="container-fluid">
+			<a id="nombre" href="#/" class="navbar-brand"><p>MARIA JOSÉ CORTEZ</p></a>
+			<div class="navbar-header">
+				<button type="button" id="showMenu" class="navbar-toggle collapsed glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+					<div class="msjFlash">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					</div>				
+				<ul class="nav navbar-nav">
+
+	          	  <li><a href="#/">INICIO</a></li>
+	              <li><a href="#/about">ACERCA DE MI</a></li>
+	              <li><a href="#/personajes">PERSONAJES</a></li>
+	              <!--<li><a href="#/cultura">CULTURA</a></li>-->
+	              <li><a href="#/deportes">DEPORTES</a></li>
+	              <li><a href="#/salud">SALUD</a></li>
+	              <li><a href="#/contacto">CONTACTO</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+<!--Fin barra de navegacion-->
+<script type="text/javascript">
+$('document', function(){
+	$('.carousel').carousel({
+		interval: 3000
+	});
+	setInterval(function(){
+		$('.msjFlash').toggle();
+	}, 7000);
+});
+</script>
